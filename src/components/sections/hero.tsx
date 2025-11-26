@@ -9,13 +9,24 @@ const HeroSection = () => {
   const heroImage = PlaceHolderImages.find(img => img.id === 'hero-background');
 
   return (
-    <section className="relative h-[70vh] md:h-[90vh] flex items-center justify-center text-center !py-0 bg-banana-leaf">
-      <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent" />
+    <section className="relative h-[70vh] md:h-[90vh] flex items-center justify-center text-center !py-0">
+      {heroImage && (
+        <Image
+          src={heroImage.imageUrl}
+          alt={heroImage.description}
+          fill
+          className="object-cover"
+          priority
+          data-ai-hint={heroImage.imageHint}
+        />
+      )}
+      <div className="absolute inset-0 bg-black/50" />
+      <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
       <div className="relative z-10 px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
-        <h1 className="font-headline text-5xl font-bold tracking-tight text-primary sm:text-7xl lg:text-8xl">
+        <h1 className="font-headline text-5xl font-bold tracking-tight text-white sm:text-7xl lg:text-8xl" style={{textShadow: '2px 2px 8px rgba(0,0,0,0.7)'}}>
           {t('hero.title')}
         </h1>
-        <p className="mt-6 max-w-2xl mx-auto text-lg leading-8 text-foreground/80 sm:text-xl">
+        <p className="mt-6 max-w-2xl mx-auto text-lg leading-8 text-white/90 sm:text-xl" style={{textShadow: '1px 1px 4px rgba(0,0,0,0.7)'}}>
           {t('hero.subtitle')}
         </p>
         <div className="mt-10">
