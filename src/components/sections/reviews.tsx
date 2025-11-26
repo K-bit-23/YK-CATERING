@@ -27,9 +27,9 @@ export default function ReviewsSection() {
               {reviews.map((review) => (
                 <CarouselItem key={review.id} className="md:basis-1/2 lg:basis-1/3">
                   <div className="p-1">
-                    <Card className="h-full flex flex-col justify-between">
+                    <Card className="h-full flex flex-col justify-between bg-card/80 backdrop-blur-sm shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-xl">
                       <CardHeader>
-                        <div className="flex space-x-1 text-yellow-500">
+                        <div className="flex space-x-1 text-accent">
                           {[...Array(5)].map((_, i) => <Star key={i} className="h-5 w-5 fill-current" />)}
                         </div>
                       </CardHeader>
@@ -45,8 +45,8 @@ export default function ReviewsSection() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="hidden sm:inline-flex" />
-            <CarouselNext className="hidden sm:inline-flex" />
+            <CarouselPrevious className="hidden sm:inline-flex bg-background/50 hover:bg-background" />
+            <CarouselNext className="hidden sm:inline-flex bg-background/50 hover:bg-background" />
           </Carousel>
         </div>
       </div>

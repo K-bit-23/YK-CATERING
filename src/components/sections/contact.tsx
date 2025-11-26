@@ -17,7 +17,7 @@ function SubmitButton() {
   const { pending } = useFormStatus();
   const { t } = useI18n();
   return (
-    <Button type="submit" disabled={pending} className="w-full">
+    <Button type="submit" disabled={pending} className="w-full bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg shadow-accent/20">
       {pending ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : null}
       {t('contact.form.submit')}
     </Button>
@@ -46,8 +46,10 @@ export default function ContactSection() {
   }, [state, toast, t]);
 
   return (
-    <section id="contact" className="">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="relative bg-transparent">
+        <div className="absolute inset-0 bg-banana-leaf opacity-10"/>
+        <div className="absolute inset-0 bg-gradient-overlay"/>
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-headline text-3xl font-bold tracking-tight text-primary sm:text-4xl">
             {t('contact.title')}
@@ -58,9 +60,9 @@ export default function ContactSection() {
         </div>
 
         <div className="mx-auto mt-16 max-w-xl">
-            <Card>
+            <Card className="bg-card/80 backdrop-blur-sm shadow-2xl">
                 <CardHeader>
-                    <CardTitle>{t('contact.form.title')}</CardTitle>
+                    <CardTitle className="text-primary">{t('contact.form.title')}</CardTitle>
                     <CardDescription>{t('contact.form.description')}</CardDescription>
                 </CardHeader>
                 <CardContent>

@@ -18,7 +18,7 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-sm supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
         <Logo />
         <nav className="hidden md:flex items-center space-x-6">
@@ -28,11 +28,11 @@ const Header = () => {
             </Link>
           ))}
         </nav>
-        <div className='flex items-center gap-4'>
+        <div className='flex items-center gap-2'>
             <Button variant="ghost" size="icon" onClick={toggleLanguage} aria-label="Toggle language">
               <Globe className="h-[1.2rem] w-[1.2rem]" />
             </Button>
-            <Button asChild className="hidden md:inline-flex bg-accent hover:bg-accent/90 text-accent-foreground">
+            <Button asChild className="hidden md:inline-flex bg-accent hover:bg-accent/90 text-accent-foreground shadow-md shadow-accent/20">
               <Link href="#contact">{t('header.getAQuote')}</Link>
             </Button>
         </div>
