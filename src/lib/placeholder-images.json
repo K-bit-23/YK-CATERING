@@ -1,0 +1,28 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A lavish South Indian catering buffet with traditional dishes.",
+      "imageUrl": "https://images.unsplash.com/photo-1567337710282-00832b415979?w=1200&q=80",
+      "imageHint": "Indian catering"
+    },
+    {
+      "id": "wedding-catering",
+      "description": "Traditional South Indian wedding feast on banana leaf.",
+      "imageUrl": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80",
+      "imageHint": "South Indian wedding food"
+    },
+    {
+      "id": "function-catering",
+      "description": "South Indian feast for special occasions and functions.",
+      "imageUrl": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=800&q=80",
+      "imageHint": "Indian feast"
+    },
+    {
+      "id": "corporate-catering",
+      "description": "Professional catering setup for corporate events.",
+      "imageUrl": "https://images.unsplash.com/photo-1555244162-803834f70033?w=800&q=80",
+      "imageHint": "corporate catering"
+    }
+  ]
+}

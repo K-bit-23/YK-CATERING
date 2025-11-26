@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 35 30% 97%;
+    --foreground: 20 20% 15%;
+    --card: 40 40% 98%;
+    --card-foreground: 20 20% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 20% 15%;
+    --primary: 25 95% 45%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 120 40% 25%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 35 20% 92%;
+    --muted-foreground: 20 10% 45%;
+    --accent: 45 100% 50%;
+    --accent-foreground: 20 20% 15%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 35 25% 85%;
+    --input: 35 20% 90%;
+    --ring: 25 95% 45%;
+    --radius: 0.75rem;
+    --gold: 43 96% 56%;
+  }
+
+  .dark {
+    --background: 20 20% 8%;
+    --foreground: 35 30% 95%;
+    --card: 20 15% 12%;
+    --card-foreground: 35 30% 95%;
+    --popover: 20 20% 8%;
+    --popover-foreground: 35 30% 95%;
+    --primary: 25 90% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 120 35% 35%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 20 15% 18%;
+    --muted-foreground: 35 20% 60%;
+    --accent: 45 95% 55%;
+    --accent-foreground: 20 20% 10%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 20 15% 25%;
+    --input: 20 15% 25%;
+    --ring: 25 90% 50%;
+    --gold: 43 96% 56%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  section {
+    @apply w-full py-12 md:py-24 lg:py-32;
+  }
+}
+
+@layer utilities {
+  .bg-banana-leaf {
+    background-image: url('https://images.unsplash.com/photo-1625022299831-4a70b1626c9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW5hbmElMjBsZWFmJTIwcGF0dGVybnxlbnwwfHx8fDE3MjE4MzY3Mjd8MA&ixlib=rb-4.0.3&q=80&w=1080');
+    background-size: 300px;
+    background-repeat: repeat;
+    background-position: center;
+  }
+  .bg-gradient-overlay {
+    background: radial-gradient(circle, hsl(var(--background) / 0.1) 0%, hsl(var(--background) / 1) 70%);
+  }
+  .bg-indian-pattern {
+    background-image: 
+      radial-gradient(circle at 25% 25%, hsl(var(--primary) / 0.05) 2%, transparent 8%),
+      radial-gradient(circle at 75% 75%, hsl(var(--accent) / 0.05) 2%, transparent 8%);
+    background-size: 60px 60px;
+  }
+  .text-gradient-gold {
+    background: linear-gradient(135deg, hsl(43 96% 56%) 0%, hsl(35 90% 45%) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .border-gold {
+    border-color: hsl(43 96% 56%);
+  }
+  .shadow-gold {
+    box-shadow: 0 4px 20px hsl(43 96% 56% / 0.3);
+  }
+}

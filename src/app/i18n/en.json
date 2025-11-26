@@ -1,0 +1,116 @@
+{
+  "header": {
+    "nav": {
+      "menu": "Menu",
+      "reviews": "Reviews",
+      "contact": "Contact"
+    },
+    "getAQuote": "Get Quote",
+    "call": "Call"
+  },
+  "hero": {
+    "title": "K.Y. Catering Service",
+    "subtitle": "High Class Catering Service - Contract & Labour",
+    "blessing": "Sri Selliyamman Thunai",
+    "cta": "Get a Quote",
+    "whatsapp": "WhatsApp Us",
+    "call": "Call Now"
+  },
+  "menu": {
+    "title": "Our Catering Services",
+    "subtitle": "Authentic South Indian cuisine for all your special occasions"
+  },
+  "reviews": {
+    "title": "What Our Clients Say",
+    "subtitle": "Trusted by families across Chennai for memorable events"
+  },
+  "contact": {
+    "title": "Plan Your Event",
+    "subtitle": "Contact us to discuss your catering needs. We're here to make your event special.",
+    "form": {
+      "title": "Contact Us",
+      "description": "Fill out the form and we'll get back to you shortly.",
+      "name": {
+        "label": "Full Name"
+      },
+      "email": {
+        "label": "Email"
+      },
+      "phone": {
+        "label": "Phone (optional)"
+      },
+      "guestCount": {
+        "label": "Number of Guests"
+      },
+      "eventDate": {
+        "label": "Event Date"
+      },
+      "message": {
+        "label": "Message"
+      },
+      "submit": "Send Inquiry"
+    },
+    "toast": {
+      "success": {
+        "title": "Inquiry Sent!",
+        "description": "Thank you! We'll contact you shortly."
+      },
+      "error": {
+        "title": "Error"
+      }
+    }
+  },
+  "footer": {
+    "subtitle": "High Class Catering Service, Contract & Labour",
+    "copyright": "K.Y. Catering Service. All rights reserved.",
+    "contactInfo": {
+      "title": "Contact Us",
+      "address": "No. 13/8, Pugazhendhi Street, MGR Nagar, K.K. Nagar, Chennai-78",
+      "phone1": "74483 12744 (WhatsApp)",
+      "phone2": "89256 26963 (Cell)"
+    },
+    "owner": {
+      "title": "Proprietor",
+      "name": "V. Kumar"
+    }
+  },
+  "data": {
+    "menuItems": {
+      "1": {
+        "name": "Wedding Catering",
+        "description": "Traditional South Indian wedding feast served on banana leaf. Complete menu with variety rice, curries, sweets, and more.",
+        "price": "Contact for pricing"
+      },
+      "2": {
+        "name": "Function Catering",
+        "description": "Perfect for housewarmings, pujas, naming ceremonies, and family gatherings. Authentic home-style cooking.",
+        "price": "Contact for pricing"
+      },
+      "3": {
+        "name": "Corporate Events",
+        "description": "Professional catering for office parties, meetings, and corporate functions. Timely delivery guaranteed.",
+        "price": "Contact for pricing"
+      }
+    },
+    "reviews": {
+      "1": {
+        "name": "Ramesh & Family",
+        "quote": "K.Y. Catering made our wedding absolutely perfect. The banana leaf meals were authentic and delicious!",
+        "event": "Wedding Reception"
+      },
+      "2": {
+        "name": "Lakshmi Priya",
+        "quote": "We ordered for our housewarming ceremony. The food was fresh, tasty and served on time!",
+        "event": "Housewarming"
+      },
+      "3": {
+        "name": "Chennai Tech Solutions",
+        "quote": "Best catering for our corporate events. Professional team, great food quality every time.",
+        "event": "Corporate Event"
+      }
+    }
+  },
+  "datepicker": {
+    "placeholder": "Pick a date"
+  }
+}
