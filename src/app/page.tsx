@@ -5,10 +5,10 @@ import Footer from '@/components/layout/footer';
 import StickyContact from '@/components/layout/sticky-contact';
 import HeroSection from '@/components/sections/hero';
 import MenuSection from '@/components/sections/menu';
-import ReviewsSection from '@/components/sections/reviews';
 import ContactSection from '@/components/sections/contact';
 import { useI18n } from '@/hooks/use-i18n';
 import { useEffect } from 'react';
+import GallerySection from '@/components/sections/gallery';
 
 export default function Home() {
   const { lang } = useI18n();
@@ -22,7 +22,7 @@ export default function Home() {
       <main className="flex-1">
         <HeroSection />
         <MenuSection />
-        <ReviewsSection />
+        <GallerySection />
         <ContactSection />
       </main>
       <Footer />
