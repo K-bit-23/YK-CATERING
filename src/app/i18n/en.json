@@ -27,10 +27,10 @@
   },
   "contact": {
     "title": "Plan Your Event",
-    "subtitle": "Contact us to discuss your catering needs. We\'re here to make your event special.",
+    "subtitle": "Contact us to discuss your catering needs. We're here to make your event special.",
     "form": {
       "title": "Contact Us",
-      "description": "Fill out the form and we\'ll get back to you shortly.",
+      "description": "Fill out the form and we'll get back to you shortly.",
       "name": {
         "label": "Full Name"
       },
@@ -54,7 +54,7 @@
     "toast": {
       "success": {
         "title": "Inquiry Sent!",
-        "description": "Thank you! We\'ll contact you shortly."
+        "description": "Thank you! We'll contact you shortly."
       },
       "error": {
         "title": "Error"
