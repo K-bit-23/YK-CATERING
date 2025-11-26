@@ -25,6 +25,22 @@ const images = [
     alt: "Crispy and savory Medu Vada with dipping sauces",
     src: "https://images.unsplash.com/photo-1628585352247-c46b5e080763?w=800&q=80",
   },
+  {
+    alt: "Fluffy Appam served with a side of stew",
+    src: "https://images.unsplash.com/photo-1625220194771-31c33b4991a7?w=800&q=80",
+  },
+  {
+    alt: "Steamed Puttu with a side of Kadala Curry",
+    src: "https://images.unsplash.com/photo-1639439343403-9b331f2f8b03?w=800&q=80",
+  },
+  {
+    alt: "Traditional South Indian dessert, Payasam",
+    src: "https://images.unsplash.com/photo-1609560114228-d362b7937107?w=800&q=80",
+  },
+  {
+    alt: "A plate of delicious Bonda, a South Indian snack",
+    src: "https://images.unsplash.com/photo-1606491048802-8342506d8434?w=800&q=80",
+  },
 ];
 
 const GallerySection = () => {
