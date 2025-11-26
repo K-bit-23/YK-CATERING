@@ -41,6 +41,12 @@
       "description": "A vibrant and delicious selection of vegan dishes.",
       "imageUrl": "https://images.unsplash.com/photo-1567575990843-105a1c70d76e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx2ZWdhbiUyMGZvb2R8ZW58MHx8fHwxNzY0MTg1NzA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "vegan food"
+    },
+    {
+      "id": "dinner-menu-3",
+      "description": "A traditional South Indian meal served on a banana leaf.",
+      "imageUrl": "https://images.unsplash.com/photo-1617364438330-d38987483756?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzb3V0aCUyMGluZGlhbiUyMG1lYWx8ZW58MHx8fHwxNzY0MTg1OTUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "south indian meal"
     }
   ]
 }

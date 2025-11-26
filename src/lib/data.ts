@@ -41,6 +41,13 @@ export const menuItems = [
     price: 'Starting at $60/person',
     imageId: 'vegan-delight-package',
   },
+  {
+    id: '7',
+    name: 'Dinner Menu 3',
+    description: 'A complete dinner spread featuring a wide variety of authentic dishes.',
+    price: 'Inquire for price',
+    imageId: 'dinner-menu-3',
+  },
 ];
 
 export const reviews = [

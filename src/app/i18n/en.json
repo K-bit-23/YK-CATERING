@@ -107,6 +107,11 @@
         "name": "Vegan Delight Package",
         "description": "A fully plant-based menu that doesn't compromise on flavor. Featuring items like jackfruit tacos, quinoa salads, and avocado chocolate mousse. A hit with all guests.",
         "price": "Starting at $60/person"
+      },
+      "7": {
+        "name": "Dinner Menu 3",
+        "description": "Malai Jam Jam, Cashew Halwa, Tender Coconut Payasam, Drumstick Soup, Veg Vajra Meen Fry, Veg Prawn 65, Lollipop, Onion Raita, Potato Curry, Cashew Pakoda, Tender Coconut Idli, Veg Fish Curry, Coconut Chutney, Mini Uthappam, Naan, Paneer Butter Masala, Jackfruit Biryani, Sambar Rice, White Rice, Rasam, Appalam, Curd Rice, Pickle (Mango), Fried Chilli, Fruit Salad, Ice Cream, Water Bottle, Beeda.",
+        "price": "Inquire for price"
       }
     },
     "reviews": {
