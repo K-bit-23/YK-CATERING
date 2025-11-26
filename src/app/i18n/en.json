@@ -1,0 +1,133 @@
+
+{
+  "header": {
+    "nav": {
+      "menu": "Menu",
+      "reviews": "Reviews",
+      "contact": "Contact"
+    },
+    "getAQuote": "Get a Quote"
+  },
+  "hero": {
+    "title": "K.Y. Catering Online",
+    "subtitle": "Crafting unforgettable culinary experiences for your most cherished moments.",
+    "cta": "Request a Consultation"
+  },
+  "menu": {
+    "title": "Our Offerings",
+    "subtitle": "Explore our diverse menu packages, thoughtfully designed for any occasion."
+  },
+  "reviews": {
+    "title": "What Our Clients Say",
+    "subtitle": "We're proud to have been a part of so many special moments."
+  },
+  "contact": {
+    "title": "Plan Your Perfect Event",
+    "subtitle": "Get in touch with us to discuss your catering needs. We're excited to help you create an unforgettable experience.",
+    "form": {
+      "title": "Contact Us",
+      "description": "Please fill out the form below and we will get back to you shortly.",
+      "name": {
+        "label": "Full name"
+      },
+      "email": {
+        "label": "Email"
+      },
+      "phone": {
+        "label": "Phone (optional)"
+      },
+      "guestCount": {
+        "label": "Number of Guests"
+      },
+      "eventDate": {
+        "label": "Event Date"
+      },
+      "message": {
+        "label": "Message"
+      },
+      "submit": "Send Inquiry"
+    },
+    "toast": {
+      "success": {
+        "title": "Inquiry Sent!",
+        "description": "Thank you for your inquiry! We'll be in touch shortly."
+      },
+      "error": {
+        "title": "Error"
+      }
+    }
+  },
+  "footer": {
+    "subtitle": "Exquisite catering for every occasion.",
+    "copyright": "K.Y. Catering Online. All rights reserved."
+  },
+  "placeholders": {
+    "hero-background": {
+        "description": "A beautifully set table at a catered event, with elegant decorations and lighting."
+    }
+  },
+  "data": {
+    "menuItems": {
+      "1": {
+        "name": "Classic Wedding Buffet",
+        "description": "A luxurious buffet spread featuring roasted chicken, prime rib, seasonal vegetables, artisanal salads, and a selection of fine cheeses. Perfect for elegant wedding receptions.",
+        "price": "Starting at $75/person"
+      },
+      "2": {
+        "name": "Corporate Lunch Box",
+        "description": "Gourmet individual lunch boxes with a sandwich or salad, side, and dessert. Options include turkey club, caprese salad, and more. Ideal for meetings and office events.",
+        "price": "$25/person"
+      },
+      "3": {
+        "name": "Elegant Appetizers Package",
+        "description": "A curated selection of 8-10 hot and cold hors d'oeuvres, such as mini quiches, shrimp cocktails, and bruschetta. Great for cocktail parties and mixers.",
+        "price": "Starting at $45/person"
+      },
+      "4": {
+        "name": "Decadent Dessert Table",
+        "description": "An impressive display of cakes, tarts, cookies, and pastries. Includes a chocolate fountain with assorted dipping items. A sweet ending to any event.",
+        "price": "Starting at $30/person"
+      },
+      "5": {
+        "name": "Birthday Party Spread",
+        "description": "A fun and delicious menu with crowd-pleasers like sliders, mac & cheese bites, fruit platters, and a custom birthday cake. Customizable for all ages.",
+        "price": "Starting at $40/person"
+      },
+      "6": {
+        "name": "Vegan Delight Package",
+        "description": "A fully plant-based menu that doesn't compromise on flavor. Featuring items like jackfruit tacos, quinoa salads, and avocado chocolate mousse. A hit with all guests.",
+        "price": "Starting at $60/person"
+      }
+    },
+    "reviews": {
+      "1": {
+        "name": "The Johnson Family",
+        "quote": "K.Y. Catering made our wedding day absolutely perfect. The food was spectacular, and the service was second to none. Our guests are still raving about the prime rib!",
+        "event": "Wedding Reception"
+      },
+      "2": {
+        "name": "Sarah L., Event Coordinator",
+        "quote": "I rely on K.Y. for all my corporate events. The lunch boxes are always fresh, delicious, and delivered on time. They make my job so much easier.",
+        "event": "Corporate Luncheon"
+      },
+      "3": {
+        "name": "Mike & Emily",
+        "quote": "The appetizer and dessert tables were the stars of our anniversary party. Everything looked and tasted incredible. Truly a five-star experience from start to finish.",
+        "event": "Anniversary Party"
+      },
+      "4": {
+        "name": "David Chen",
+        "quote": "We hired them for my dad's 70th birthday, and they were fantastic. The team was so professional and accommodating to our various dietary needs. Highly recommend!",
+        "event": "Birthday Celebration"
+      },
+      "5": {
+        "name": "Alpha Beta Corp",
+        "quote": "The best catering service we have used for our annual company picnic. The food was fresh, creative, and beautifully presented. The staff was professional and friendly.",
+        "event": "Company Picnic"
+      }
+    }
+  },
+  "datepicker": {
+      "placeholder": "Pick a date"
+  }
+}

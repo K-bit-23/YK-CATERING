@@ -1,8 +1,10 @@
 import Link from 'next/link';
 import { Facebook, Instagram, Twitter } from 'lucide-react';
 import Logo from '../logo';
+import { useI18n } from '@/hooks/use-i18n';
 
 const Footer = () => {
+  const { t } = useI18n();
   return (
     <footer className="bg-primary/5 border-t">
       <div className="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
@@ -10,7 +12,7 @@ const Footer = () => {
           <div className="mb-8 md:mb-0 text-center md:text-left">
             <Logo />
             <p className="mt-2 text-sm text-foreground/70">
-              Exquisite catering for every occasion.
+              {t('footer.subtitle')}
             </p>
           </div>
           <div className="flex space-x-6">
@@ -29,7 +31,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 border-t border-primary/10 pt-8 text-center text-sm text-foreground/50">
-          <p>&copy; {new Date().getFullYear()} K.Y. Catering Online. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} {t('footer.copyright')}</p>
         </div>
       </div>
     </footer>

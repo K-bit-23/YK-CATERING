@@ -12,6 +12,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover"
+import { useI18n } from "@/hooks/use-i18n"
 
 interface DatePickerProps {
     name: string;
@@ -19,6 +20,7 @@ interface DatePickerProps {
 
 export function DatePicker({ name }: DatePickerProps) {
   const [date, setDate] = React.useState<Date>()
+  const { t } = useI18n();
   
   // Hidden input to store date for form submission
   const hiddenInput = date ? <input type="hidden" name={name} value={format(date, 'yyyy-MM-dd')} /> : null;
@@ -36,7 +38,7 @@ export function DatePicker({ name }: DatePickerProps) {
             )}
           >
             <CalendarIcon className="mr-2 h-4 w-4" />
-            {date ? format(date, "PPP") : <span>Pick a date</span>}
+            {date ? format(date, "PPP") : <span>{t('datepicker.placeholder')}</span>}
           </Button>
         </PopoverTrigger>
         <PopoverContent className="w-auto p-0">
