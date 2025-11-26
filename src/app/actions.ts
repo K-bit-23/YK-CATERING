@@ -1,62 +1,8 @@
 
 'use server';
 
-import { suggestMenu } from '@/ai/flows/suggest-menu';
-import { menuItems } from '@/lib/data';
 import { z } from 'zod';
 import { revalidatePath } from 'next/cache';
-
-// AI Suggester Action
-const suggestionSchema = z.object({
-  occasionType: z.string().min(1, { message: 'Occasion type is required.' }),
-  dietaryPreferences: z.string().optional(),
-  budget: z.string().min(1, { message: 'Budget is required.' }),
-});
-
-export type SuggestionState = {
-  message?: string | null;
-  errors?: {
-    occasionType?: string[];
-    dietaryPreferences?: string[];
-    budget?: string[];
-  } | null;
-  suggestion?: string | null;
-};
-
-export async function getMenuSuggestions(
-  prevState: SuggestionState,
-  formData: FormData
-): Promise<SuggestionState> {
-  const validatedFields = suggestionSchema.safeParse({
-    occasionType: formData.get('occasionType'),
-    dietaryPreferences: formData.get('dietaryPreferences'),
-    budget: formData.get('budget'),
-  });
-
-  if (!validatedFields.success) {
-    return {
-      errors: validatedFields.error.flatten().fieldErrors,
-      message: 'Invalid form data.',
-    };
-  }
-
-  const menuItemsString = menuItems
-    .map((item) => `${item.name}: ${item.description} (Price: ${item.price})`)
-    .join('\n');
-
-  try {
-    const result = await suggestMenu({
-      ...validatedFields.data,
-      dietaryPreferences: validatedFields.data.dietaryPreferences || 'None',
-      menuItems: menuItemsString,
-    });
-    revalidatePath('/');
-    return { message: 'Success', suggestion: result.suggestions };
-  } catch (error) {
-    console.error('AI suggestion error:', error);
-    return { message: 'Error: Could not retrieve suggestions at this time.' };
-  }
-}
 
 // Contact Form Action
 const contactSchema = z.object({

@@ -5,7 +5,6 @@ import Logo from '../logo';
 const Header = () => {
   const navItems = [
     { name: 'Menu', href: '#menu' },
-    { name: 'AI Suggestions', href: '#ai-suggester' },
     { name: 'Reviews', href: '#reviews' },
     { name: 'Contact', href: '#contact' },
   ];
