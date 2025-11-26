@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A beautifully set table at a catered event, with elegant decorations and lighting.",
+      "imageUrl": "https://images.unsplash.com/photo-1572932759899-5ad91d0f9dbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXRlcmVkJTIwZXZlbnR8ZW58MHx8fHwxNzY0MTg1NzA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "catered event"
+    },
+    {
+      "id": "classic-wedding-buffet",
+      "description": "An abundant and beautifully arranged buffet for a wedding, featuring a variety of dishes.",
+      "imageUrl": "https://images.unsplash.com/photo-1557163636-6ed0123f7f79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3ZWRkaW5nJTIwYnVmZmV0fGVufDB8fHx8MTc2NDE4NTcwNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding buffet"
+    },
+    {
+      "id": "corporate-lunch-box",
+      "description": "Neatly packed, gourmet lunch boxes for a corporate meeting.",
+      "imageUrl": "https://images.unsplash.com/photo-1644203542040-2df37e3580ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb3Jwb3JhdGUlMjBsdW5jaHxlbnwwfHx8fDE3NjQxODU3MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "corporate lunch"
+    },
+    {
+      "id": "elegant-appetizers",
+      "description": "A tray of assorted, elegant appetizers perfect for cocktail parties.",
+      "imageUrl": "https://images.unsplash.com/photo-1760445528912-60ff18771199?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxnb3VybWV0JTIwYXBwZXRpemVyc3xlbnwwfHx8fDE3NjQxODU3MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gourmet appetizers"
+    },
+    {
+      "id": "dessert-table",
+      "description": "A stunning dessert table with cakes, pastries, and other sweets.",
+      "imageUrl": "https://images.unsplash.com/photo-1583337912553-c0e828c51bc5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGVzc2VydCUyMHRhYmxlfGVufDB8fHx8MTc2NDExNDgyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dessert table"
+    },
+    {
+      "id": "birthday-party-spread",
+      "description": "A fun and colorful food spread for a birthday party.",
+      "imageUrl": "https://images.unsplash.com/photo-1574484184081-afea8a62f9c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwYXJ0eSUyMGZvb2R8ZW58MHx8fHwxNzY0MTg1NzA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "party food"
+    },
+    {
+      "id": "vegan-delight-package",
+      "description": "A vibrant and delicious selection of vegan dishes.",
+      "imageUrl": "https://images.unsplash.com/photo-1567575990843-105a1c70d76e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx2ZWdhbiUyMGZvb2R8ZW58MHx8fHwxNzY0MTg1NzA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vegan food"
+    }
+  ]
 }
