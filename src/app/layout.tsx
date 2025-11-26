@@ -6,8 +6,8 @@ import { LanguageProvider } from '@/contexts/LanguageContext';
 import { Suspense } from 'react';
 
 export const metadata: Metadata = {
-  title: 'K.Y. Catering Online',
-  description: 'Exquisite catering for every occasion. Let us make your event unforgettable.',
+  title: 'K.Y. Catering Service',
+  description: 'High Class Catering Service, Contract & Labour. Let us make your event unforgettable.',
 };
 
 export default function RootLayout({

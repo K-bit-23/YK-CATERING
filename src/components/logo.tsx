@@ -6,7 +6,7 @@ const Logo = () => {
     <Link href="/" className="flex items-center space-x-2">
       <UtensilsCrossed className="h-6 w-6 text-primary" />
       <span className="font-headline text-xl font-bold text-primary">
-        K.Y. Catering Online
+        K.Y. Catering Service
       </span>
     </Link>
   );

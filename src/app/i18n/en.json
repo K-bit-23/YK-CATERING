@@ -9,7 +9,7 @@
     "getAQuote": "Get a Quote"
   },
   "hero": {
-    "title": "K.Y. Catering Online",
+    "title": "K.Y. Catering Service",
     "subtitle": "Crafting unforgettable culinary experiences for your most cherished moments.",
     "cta": "Request a Consultation"
   },
@@ -58,8 +58,18 @@
     }
   },
   "footer": {
-    "subtitle": "Exquisite catering for every occasion.",
-    "copyright": "K.Y. Catering Online. All rights reserved."
+    "subtitle": "High Class Catering Service, Contract & Labour.",
+    "copyright": "K.Y. Catering Service. All rights reserved.",
+    "contactInfo": {
+      "title": "Contact Information",
+      "address": "No. 13/8, Pugazhendhi Street, MGR Nagar, K. K. Nagar, Chennai-78",
+      "phone1": "74483 12744 (Whatsapp)",
+      "phone2": "89256 26963 (Cell)"
+    },
+    "owner": {
+        "title": "Proprietor",
+        "name": "V. Kumar"
+    }
   },
   "placeholders": {
     "hero-background": {
