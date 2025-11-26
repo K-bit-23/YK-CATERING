@@ -6,16 +6,28 @@ import Logo from '../logo';
 import { useI18n } from '@/hooks/use-i18n';
 import { Globe, Phone, MessageCircle, Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { menuItems } from '@/lib/data';
 
 const Header = () => {
   const { t, setLang, lang } = useI18n();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { name: t('header.nav.menu'), href: '#menu' },
     { name: t('header.nav.gallery'), href: '#gallery' },
     { name: t('header.nav.contact'), href: '#contact' },
   ];
+  
+  const mobileNavItems = [
+      ...menuItems.map((item) => ({ name: item.name, href: '#menu' })),
+      { name: t('header.nav.gallery'), href: '#gallery' },
+      { name: t('header.nav.contact'), href: '#contact' },
+  ]
 
   const toggleLanguage = () => {
     setLang(lang === 'en' ? 'ta' : 'en');
@@ -26,6 +38,20 @@ const Header = () => {
       <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
         <Logo />
         <nav className="hidden md:flex items-center space-x-6">
+            <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                <Button variant="ghost" className="text-sm font-medium text-foreground/70 transition-colors hover:text-primary">
+                    {t('header.nav.menu')}
+                </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent>
+                {menuItems.map(item => (
+                    <DropdownMenuItem key={item.id} asChild>
+                    <Link href="#menu">{item.name}</Link>
+                    </DropdownMenuItem>
+                ))}
+                </DropdownMenuContent>
+            </DropdownMenu>
           {navItems.map((item) => (
             <Link key={item.name} href={item.href} className="text-sm font-medium text-foreground/70 transition-colors hover:text-primary">
               {item.name}
@@ -64,7 +90,7 @@ const Header = () => {
       {mobileMenuOpen && (
         <div className="md:hidden border-t border-primary/10 bg-background/98 backdrop-blur-md">
           <nav className="container mx-auto px-4 py-4 space-y-3">
-            {navItems.map((item) => (
+            {mobileNavItems.map((item) => (
               <Link 
                 key={item.name} 
                 href={item.href} 
